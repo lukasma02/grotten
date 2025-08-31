@@ -1,0 +1,37 @@
+package clothing.main;
+
+public class Clothing {
+
+    public static void main(String[] args) {
+        // T-shirt 1
+        String color1 = "Red";
+        String print1 = "Java is nice";
+        String size1 = "M";
+        int cost1 = 5;
+
+        // T-shirt 2
+        String color2 = "Green";
+        String print2 = "Java is awesome";
+        String size2 = "S";
+        int cost2 = 2;
+
+        // T-shirt 3
+        String color3 = "Blue";
+        String print3 = "Java is superb";
+        String size3 = "L";
+        int cost3 = 3;
+
+        // T-shirt 4
+        String color4 = "Yellow";
+        String print4 = "Java is cool";
+        String size4 = "XL";
+        int cost4 = 4;
+
+        // Show the T-shirts
+        System.out.println("T-SHIRT ALERT!");
+        System.out.println(color1 + "  " + print1 + "  Size: " + size1 + "  Cost: $" + cost1);
+        System.out.println(color2 + "  " + print2 + "  Size: " + size2 + "  Cost: $" + cost2);
+        System.out.println(color3 + "  " + print3 + "  Size: " + size3 + "  Cost: $" + cost3);
+        System.out.println(color4 + "  " + print4 + "  Size: " + size4 + "  Cost: $" + cost4);
+    }
+}
